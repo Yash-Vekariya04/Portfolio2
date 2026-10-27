@@ -1,6 +1,32 @@
-🚀 Yash Vekariya — Personal Portfolio WebsiteA clean, high-performance, single-page developer portfolio website engineered from scratch using pure Vanilla HTML5 and CSS3. Designed with a modern dark-mode aesthetic, structured component layouts, and a zero-framework footprint for instant loading speed.📌 Executive SummaryThis portfolio acts as a centralized digital storefront showcasing my technical background across full-stack development, Python programming, and Artificial Intelligence / Machine Learning applications. It aggregates core skill sets, quick biographical context, direct links to active project repositories, and friction-free contact channels into a unified user experience.✨ FeaturesCustom Design System: Built using native CSS custom properties (:root variables) for a cohesive dark theme, smooth color palettes, typography scales, and unified card surfaces.Fixed Navigation: Accessible top navigation bar with persistent branding and smooth internal anchor scrolling (#about, #projects, #contact).Responsive Grid System: Dynamically wraps and resizes project cards across screen sizes using CSS Grid (repeat(auto-fill, minmax(300px, 1fr))) without heavy external media framework bloat.Project Showcase: Highlights real-world code repositories with technology tags, project descriptions, and direct outbound GitHub links.Frictionless Contact Interface: Quick-access communication cards featuring direct mailto: links, GitHub profile shortcuts, and Telegram connectivity.Framework-Free & Fast: Engineered without Tailwind, Bootstrap, or JavaScript frameworks, resulting in zero build step overhead and near-instant load performance.🛠️ Technology StackLayerTechnology UsedMarkup & StructureHTML5 (Semantic Structure)Styling & Theme EngineCSS3 (Native Custom Properties / Variables, Flexbox, CSS Grid)TypographyGoogle Fonts (Inter, JetBrains Mono)IconsFont Awesome v6 (Web Font Icons)Hosting / DeploymentStatic Web Hosting (GitHub Pages / Vercel / Netlify)📁 Repository Structure.
-├── index.html       # Single-page core document containing structural markup & CSS styling
-└── README.md        # Project documentation and setup guide
-💻 Included Projects ShowcaseThe portfolio features direct links to several key projects:🤖 AI-Assistant — Custom AI-driven interactive assistant application.📺 AI-Twitch-Streamer — Automated AI streaming integration tools.🎓 CS50 / CS50ai — Implementations for Harvard's Computer Science & Artificial Intelligence coursework.🛡️ PROJECT-A.I.D.A. — Intelligent decision-making and automation codebase.🎙️ FRIDAY — Voice-controlled personal assistant software.🚀 Getting Started & Local DevelopmentNo complex installation processes, package managers (npm/yarn), or bundlers are required.Option 1: Clone and Run LocallyClone this repository to your local machine:git clone https://github.com/your-username/portfolio.git
-Navigate to the project directory:cd portfolio
-Open index.html in your favorite browser:Double-click index.html in your file explorer, ORRun a live preview using VS Code extensions like Live Server.📄 Solution Architecture & Design RationaleSingle-Page Application (SPA): All sections (Hero, About, Projects, Contact) exist inside a single HTML file to minimize HTTP requests and eliminate page refresh delays.Padding Offset Strategy: Uses custom layout top padding (padding-top: 120px) on the main execution container to prevent content from hiding beneath the position: fixed header.Accessibility & Legibility: Implements high-contrast text ratios against dark background surfaces (#0f0f12), paired with clean sans-serif typography (Inter) for readability.📬 Contact & ConnectName: Yash VekariyaEmail: suratgmryash@gmail.comGitHub: YashVekariyaLocation: Surat, Gujarat, India© 2026 Yash Vekariya. Built with Vanilla HTML5 & CSS3.
+# Personal Developer Portfolio
+
+A clean, high-performance, dark-themed personal portfolio website built with modern web standards (Vanilla HTML5 and CSS3). Designed to showcase technical projects, core skills, and contact channels without relying on external frontend frameworks or heavy JavaScript libraries.
+
+---
+
+## 🚀 Features
+
+* **Modern Dark-Mode Aesthetic:** Customized color palette built with CSS custom properties (`:root` variables) for visual hierarchy and consistent styling.
+* **Responsive Layout:** Responsive project cards and skill section engineered using CSS Grid (`auto-fill`, `minmax`) and Flexbox.
+* **Fixed Navigation:** Accessible top header with smooth internal anchor links (`#about`, `#projects`, `#contact`).
+* **Clean Typography:** Integrated Google Fonts (**Inter** for primary UI elements and **JetBrains Mono** for technical tags and code aesthetics).
+* **Direct Outbound Proof-of-Work:** Direct links to live GitHub repositories (`AI-Assistant`, `CS50ai`, `PROJECT-A.I.D.A.`, etc.) and immediate contact channels.
+* **Lightweight & High Performance:** Framework-free architecture ensuring fast load times and minimal rendering overhead.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Markup:** HTML5 (Semantic Structure)
+* **Styling:** CSS3 (CSS Variables, Flexbox, CSS Grid)
+* **Typography:** Google Fonts (`Inter`, `JetBrains Mono`)
+* **Icons & Assets:** SVGs / Custom CSS Badge Styling
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── index.html        # Main HTML layout containing embedded design tokens and CSS styles
+└── README.md         # Project documentation and setup guide
